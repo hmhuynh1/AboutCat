@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "Cat Gallery";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Cat Gallery</h2>
+<p>Welcome to our Cat Gallery! Here you can find photos of adorable cats shared by our loving community. From fluffy to sleek, playful to serene, discover the diverse world of cats and maybe even find your next feline friend.</p>
+
+<div class="cat-gallery">
+    <div class="cat-item">
+        <img src="/images/cat1.jpg" alt="Fluffy Cat">
+        <p>Fluffy - The Majestic Floof</p>
+    </div>
+    <div class="cat-item">
+        <img src="/images/cat2.jpg" alt="Playful Kitten">
+        <p>Whiskers - Playful Explorer</p>
+    </div>
+    <div class="cat-item">
+        <img src="/images/cat3.jpg" alt="Serene Cat">
+        <p>Serenity - The Zen Master</p>
+    </div>
+    <!-- More cat items can be added here -->
+</div>
+
+<style>
+    .cat-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .cat-item {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        overflow: hidden;
+        width: 220px;
+        text-align: center;
+        padding: 10px;
+    }
+
+        .cat-item img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 5px;
+        }
+</style>

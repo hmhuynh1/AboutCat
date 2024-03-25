@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Lovers' Haven</title>
+    <link rel="stylesheet" href="~/css/site.css">
+    <style>
+        .content-wrapper {
+            margin: 20px;
+        }
+
+        .header-content {
+            text-align: center;
+        }
+
+        h1 {
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        .text-and-image {
+            display: flex;
+            align-items: flex-start; /* Aligns items to the start of the cross axis */
+        }
+
+        .text-content {
+            flex: 1; /* Takes up remaining space */
+        }
+
+            .text-content p {
+                /* text-shadow: 1px 1px 2px #ffffff; /* Subtle shadow for paragraph text */ */
+            }
+
+        .image-content img {
+            width: 300px; /* Adjust width as needed to fit the text */
+            height: auto; /* Maintain aspect ratio */
+            margin-left: 20px; /* Space between text and image */
+            margin-top:50px;
+            border: 2px solid rgba(0, 00, 00, 0.5); /* Add a solid black border */
+            border-radius: 8px; /* Add border radius for rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+        }
+      
+    </style>
+</head>
+<body>
+    <header class="content-wrapper header-content">
+        <h1>Welcome to About Cats</h1>
+    </header>
+    <main class="content-wrapper text-and-image">
+        <div class="text-content">
+            <p> This website is dedicated to cat owners and enthusiasts looking for straightforward information about their feline friends. Here, you can find everything you need to know about cat care, including their likes and dislikes, as well as recommendations for the best foods and toys to keep your cat happy and healthy.</p>
+            <p> But that's not all – Cat Lovers' Haven also serves as a platform for sharing adorable photos of your cats, connecting with other cat owners, and sharing experiences and tips. It's the purrfect place to learn more about your cat companions and become part of a community that loves cats just as much as you do!</p>
+        </div>
+        <div class="image-content">
+            <img src="~/images/2.jpeg" alt="White Cat">
+        </div>
+    </main>
+    <section class="content-wrapper text-content">
+        <h2>Featured Cat Gallery</h2>
+        <p>Check out some of the most adorable cats shared by our community!</p>
+        <!-- Gallery placeholder -->
+    </section>
+    <section class="content-wrapper text-content">
+        <h2>Cat Care Tips</h2>
+        <p>Discover expert advice on how to keep your cat healthy and happy.</p>
+        <!-- Advice placeholder -->
+    </section>
+    <footer class="content-wrapper text-content">
+        <p>Made by: Hong Huynh, Isaac Lavana...</p>
+    </footer>
+</body>
+</html>
