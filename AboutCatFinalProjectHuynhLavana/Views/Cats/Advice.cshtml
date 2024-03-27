@@ -1,0 +1,44 @@
+﻿@model CatAdvice;
+@{
+    ViewBag.Title = "Cat Advice";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Cat Gallery</h2>
+<p>Welcome to our Cat Gallery! Here you can find photos of adorable cats shared by our loving community. From fluffy to sleek, playful to serene, discover the diverse world of cats and maybe even find your next feline friend.</p>
+
+ <form asp-action="" method="post">
+            <div class="form-input">
+        <label asp-for="Breed">Cat Breeds</label>
+                <input asp-for="Breed" />
+        <label asp-for="CatName">Cat Name</label>
+        <input asp-for="CatName" />
+
+            </div>
+
+</form>
+
+<style>
+    .cat-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .cat-item {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        overflow: hidden;
+        width: 220px;
+        text-align: center;
+        padding: 10px;
+    }
+
+        .cat-item img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 5px;
+        }
+</style>

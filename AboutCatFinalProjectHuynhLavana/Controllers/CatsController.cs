@@ -110,5 +110,11 @@ namespace YourApplication.Controllers
             }
             return RedirectToAction(nameof(Index));
         }
+
+        public IActionResult Advice()
+        {
+            return View("Advice");
+        }
+
     }
 }
