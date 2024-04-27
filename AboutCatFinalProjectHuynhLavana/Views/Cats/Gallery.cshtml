@@ -3,46 +3,81 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Cat Gallery</h2>
-<p>Welcome to our Cat Gallery! Here you can find photos of adorable cats shared by our loving community. From fluffy to sleek, playful to serene, discover the diverse world of cats and maybe even find your next feline friend.</p>
 
-<div class="cat-gallery">
-    <div class="cat-item">
-        <img src="/images/cat1.jpg" alt="Fluffy Cat">
-        <p>Fluffy - The Majestic Floof</p>
+<div style="padding:50px">
+
+
+    <h2 class="text-green" style="font-size">Cat Gallery</h2>
+    <p class="text-white" style="font-size: 20px">Welcome to our Cat Gallery! Here you can find some cute photos of cats shared by our cat owner.</p>
+
+
+
+    <div class="cat-gallery">
+
+        <div class="cat-item">
+            <img src="/images/c.jpeg" alt="Mackerel Tabby">
+            <p class="text-green" style="font-size: 20px">My name is Kenzy</p>
+            <p class="text-white" style="font-size: 20px">
+                I am a Mackerel Tabby, I love tuna, play toy and try new foods.
+
+            </p>
+
+        </div>
+        <div class="cat-item">
+            <img src="/images/3.jpeg" alt="Fluffy Cat">
+            <p class="text-green" style="font-size: 20px">My name is Ambrosia</p>
+            <p class="text-white" style="font-size: 20px">
+                I am a American short hairs, I riding on my ower shoulder, and knocking stuff over.
+            </p>
+        </div>
+
+        <div class="cat-gallery">
+            <div class="cat-item">
+                <img src="/images/4.jpeg" alt="Fluffy Cat">
+                <p class="text-green" style="font-size: 20px">My name is Waldorf</p>
+                <p class="text-white" style="font-size: 20px">
+                    I am a American short hairs, I likes napping with my sister.
+                </p>
+
+            </div>
+
+            <!-- More cat items can be added here -->
+        </div>
+
     </div>
-    <div class="cat-item">
-        <img src="/images/cat2.jpg" alt="Playful Kitten">
-        <p>Whiskers - Playful Explorer</p>
-    </div>
-    <div class="cat-item">
-        <img src="/images/cat3.jpg" alt="Serene Cat">
-        <p>Serenity - The Zen Master</p>
-    </div>
-    <!-- More cat items can be added here -->
-</div>
-
-<style>
-    .cat-gallery {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-        justify-content: center;
-    }
-
-    .cat-item {
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        overflow: hidden;
-        width: 220px;
-        text-align: center;
-        padding: 10px;
-    }
-
-        .cat-item img {
-            width: 100%;
-            height: auto;
-            border-bottom: 1px solid #ddd;
-            margin-bottom: 5px;
+    <style>
+        .cat-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
         }
-</style>
+
+
+        .cat-item {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            overflow: hidden;
+            width: 300px;
+            text-align: center;
+            padding: 10px;
+        }
+
+            .cat-item img {
+                width: 100%;
+                height: 400px;
+                object-fit: contain;
+                border-bottom: 1px solid #ddd;
+                margin-bottom: 5px;
+            }
+
+        .text-white {
+            color: white;
+            text-align: left;
+        }
+
+        .text-green {
+            color: yellowgreen;
+            text-align: left;
+        }
+    </style>

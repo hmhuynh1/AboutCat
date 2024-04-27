@@ -1,0 +1,92 @@
+﻿@model Cat
+@{
+    ViewBag.Title = "Favorites";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div style="padding:50px">
+
+
+    <h2 class="text-green" style="font-size">Cat Favorites</h2>
+    <p class="text-white" style="font-size: 20px">Here you can find the feedback from the cat owner about the foods and toys that work for their cats.
+
+
+    <div class="cat-gallery">
+
+        <div class="cat-item">
+            <img src="/images/cattree.jpg" alt="Mackerel Tabby">
+                <p class="text-green" style="font-size: 20px">PetPals 23-in Paper Rope Hand Woven Condo & Perch Cat Tree, Natural</p>
+               
+                <a href=“http://www.petsmart.com/cat/beds-and-furniture/furniture-and-towers/petpals-23-in-paper-rope-hand-woven-condo-and-perch-cat-tree-natural-65075.html?cgid=200102&fmethod=Browse.”>Buy Here!</a>
+    
+                
+            <p class="text-white" style="font-size: 20px">
+                    This cat tree has a super large bowl, my adult with 20 lbs is easy to sleep inside. The basket is made with "paper". The scratching post is also thick enough for my cat scratching. 
+                    The top perch is not too high, but high enough for my window viewing. Great purchase.
+            </p>
+        </div>
+
+        <div class="cat-item">
+            <img src="/images/Toy.jpg" alt="CatToy">
+                <p class="text-green" style="font-size: 20px">Temptations Snacky Penguin Cat Toy and Sample Treat Pack</p>
+                <a href=“http://https://www.amazon.com/Temptations-Snacky-Penguin-Chicken-Flavor-42/dp/B08DQWGT6V?th =1”>Buy Here!</a>
+
+            <p class="text-white" style="font-size: 20px">
+                    She loves it! She swats it all the time, will even play with it when it's empty. 
+                    this has kept her interest longer than any toy I've bought before.
+            </p>
+        </div>
+
+        <div class="cat-gallery">
+            <div class="cat-item">
+                <img src="/images/food.jpg" alt="Fluffy Cat">
+                    <p class="text-green" style="font-size: 20px">SHEBA PERFECT PORTIONS Cuts in Gravy Adult Wet Cat Food Trays</p>
+                    <p><a href=“http://https://https://www.amazon.com/Sheba-Portions-Wet-Food-Twin-Pack/dp/B072DTFZHL/ref=sr_1_2_sspa?crid=2DH9MSRNRIFGM&dib=eyJ2IjoiMSJ9.3BIF_ispwhaQ0TCxUMyAnG5Gz5OedZFcf14B85qhv09Kr9NCFiRGWKLrZnE2PVoCRPioGUQM636vb1W_LrlTTd09TjW3t_Q8ykZ7oawOToOmjmVbM-0E32BB3dNGAi_beGHQIoKMVKA4agUSMd7sbYFbQ5EMf7jlF5Qj-dbatnNAv9kceD1Ln78-P7jWzzJbFhuPpFObn7PjqLZWZt7O8NGjwr69AQGAH0gT6VWaGvpO5hu_xIiilgS3C9mSQejxTWVD7-WjmeeFaeemgO7cprJtzrl3BV-AR68S7JgtX_w.-WHSa8TlLj-IJM-F7ClMq9Inp4GNuJnCqBWf4gLDFhY&dib_tag=se&keywords=Fancy%2BFeast%2BGravy%2BLovers%2BPoultry%2B%26%2BBeef%2BFeast%2BVariety%2BPack%2BCanned%2BCat%2BFood&qid=1714027544&sprefix=fancy%2Bfeast%2Bgravy%2Blovers%2Bpoultry%2B%26%2Bbeef%2Bfeast%2Bvariety%2Bpack%2Bcanned%2Bcat%2Bfood%2Caps%2C371&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1”>Buy Here!</a></p>
+                <p class="text-white" style="font-size: 20px">
+                        My 17 yr old aging tabby seems to love this food. She only eats table food but makes an exception for sheeba pate. 
+                        My only complaint is the company needs to make it less messier to open to pull back the aluminum covering. 
+                        It’s hard to peel back and often the cat food gets on my hands.
+                </p>
+
+            </div>
+
+            <!-- More cat items can be added here -->
+        </div>
+
+    </div>
+    <style>
+        .cat-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+        }
+
+
+        .cat-item {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            overflow: hidden;
+            width: 300px;
+            text-align: center;
+            padding: 10px;
+        }
+
+            .cat-item img {
+                width: 100%;
+                height: 400px;
+                object-fit: contain;
+                border-bottom: 1px solid #ddd;
+                margin-bottom: 5px;
+            }
+
+        .text-white {
+            color: white;
+            text-align: left;
+        }
+
+        .text-green {
+            color: yellowgreen;
+            text-align: left;
+        }
+    </style>

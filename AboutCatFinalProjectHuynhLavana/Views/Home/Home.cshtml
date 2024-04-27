@@ -39,40 +39,43 @@
         .image-content img {
             width: 300px; /* Adjust width as needed to fit the text */
             height: auto; /* Maintain aspect ratio */
-            margin-left: 20px; /* Space between text and image */
-            margin-top:50px;
+            margin-left: 30px; /* Space between text and image */
+            margin-top:10px;
             border: 2px solid rgba(0, 00, 00, 0.5); /* Add a solid black border */
             border-radius: 8px; /* Add border radius for rounded corners */
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+        }
+
+        .text-white {
+            color:white;
+            text-align: left;
         }
       
     </style>
 </head>
 <body>
     <header class="content-wrapper header-content">
-        <h1>Welcome to About Cats</h1>
+        <h1 class="text-white">Welcome to About Cats</h1>
     </header>
     <main class="content-wrapper text-and-image">
         <div class="text-content">
-            <p> This website is dedicated to cat owners and enthusiasts looking for straightforward information about their feline friends. Here, you can find everything you need to know about cat care, including their likes and dislikes, as well as recommendations for the best foods and toys to keep your cat happy and healthy.</p>
-            <p> But that's not all – Cat Lovers' Haven also serves as a platform for sharing adorable photos of your cats, connecting with other cat owners, and sharing experiences and tips. It's the purrfect place to learn more about your cat companions and become part of a community that loves cats just as much as you do!</p>
+            <p class="text-white" style="font-size: 20px">
+                From ancient Egyptians to today’s cat is always mean something to the cat owner. People have always loved their cats.
+                In the U.S. alone, cats reign over about 45.3 million households. There are at least 45 domestic breeds, which differ widely in features such as coat color, tail length, hair texture, and temperament, according to the Cat Fancier’s Association.
+            </p>
+
+            <hp class="text-white" style="font-size: 20px">
+                On ous website you will find out more about cats and some advice for cats foods,cats toys.  
+            </hp>
+
         </div>
         <div class="image-content">
             <img src="~/images/2.jpeg" alt="White Cat">
         </div>
     </main>
-    <section class="content-wrapper text-content">
-        <h2>Featured Cat Gallery</h2>
-        <p>Check out some of the most adorable cats shared by our community!</p>
-        <!-- Gallery placeholder -->
-    </section>
-    <section class="content-wrapper text-content">
-        <h2>Cat Care Tips</h2>
-        <p>Discover expert advice on how to keep your cat healthy and happy.</p>
-        <!-- Advice placeholder -->
-    </section>
+    
     <footer class="content-wrapper text-content">
-        <p>Made by: Hong Huynh, Isaac Lavana...</p>
+        <span class="text-white" style="font-size: 20px">&copy; copy rights, Made by: Hong Huynh, Isaac Lavana</span>
     </footer>
 </body>
 </html>

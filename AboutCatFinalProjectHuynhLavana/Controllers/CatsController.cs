@@ -1,120 +1,118 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using AboutCatFinalProjectHuynhLavana.Models;
+﻿using AboutCatFinalProjectHuynhLavana.Models;
+using Microsoft.AspNetCore.Mvc;
 
-namespace YourApplication.Controllers
+
+namespace CatsList.Controllers
 {
     public class CatsController : Controller
     {
-        // Example list of cats for demonstration purposes
-        private static List<Cat> cats = new List<Cat>
-        {
-            new Cat { Id = 1, Name = "Fluffy", ImageUrl = "/images/cat1.jpg", Description = "The Majestic Floof" },
-            new Cat { Id = 2, Name = "Whiskers", ImageUrl = "/images/cat2.jpg", Description = "Playful Explorer" },
-            new Cat { Id = 3, Name = "Serenity", ImageUrl = "/images/cat3.jpg", Description = "The Zen Master" }
-            // Add more cats as needed
-        };
+        private CatContext context { get; set; }
 
+        public CatsController(CatContext ctx) => context = ctx;
+
+        [HttpGet]
+        public IActionResult Advice(String query = "")
+        {
+            if (query != "")
+            {
+                ViewBag.results = context.Cat.ToList();
+            }
+
+            return View(new Cat());
+
+        }
+
+        [HttpPost]
+        public IActionResult Advice(Cat cat)
+        {
+            if (ModelState.IsValid)
+            {
+                if (cat.CatId == 0)
+                    context.Cat.Add(cat);
+                else
+                    context.Cat.Update(cat);
+                context.SaveChanges();
+                return RedirectToAction("Advice", "Cats");
+            }
+            else
+            {
+
+                return View(cat);
+            }
+        }
+
+
+        [HttpGet]
         public IActionResult Gallery()
         {
-            // Pass the list of cats to the view
-            return View(cats);
-        }
 
-        public IActionResult Details(int id)
-        {
-            // Find the cat by ID
-            var cat = cats.Find(c => c.Id == id);
-            if (cat == null)
-            {
-                return NotFound();
-            }
-            return View(cat);
-        }
-
-        public IActionResult Create()
-        {
-            // Return a view for creating a new cat
             return View();
         }
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult Create(Cat cat)
+        [HttpGet]
+        public IActionResult Add()
         {
-            if (ModelState.IsValid)
-            {
-                // Assuming IDs are handled manually for this example
-                cat.Id = cats.Count + 1;
-                cats.Add(cat);
-                return RedirectToAction(nameof(Index));
-            }
-            return View(cat);
+            ViewBag.Action = "Add";
+            return View("Edit", new Cat());
         }
 
+
+        [HttpGet]
         public IActionResult Edit(int id)
         {
-            // Find the cat to edit
-            var cat = cats.Find(c => c.Id == id);
-            if (cat == null)
-            {
-                return NotFound();
-            }
-            return View(cat);
+            ViewBag.Action = "Edit";
+            var movie = context.Cat.Find(id);
+            return View(movie);
         }
+
+
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult Edit(int id, Cat cat)
+        public IActionResult Edit(Cat cat)
         {
-            if (id != cat.Id)
-            {
-                return BadRequest();
-            }
-
-            var catToUpdate = cats.Find(c => c.Id == id);
-            if (catToUpdate == null)
-            {
-                return NotFound();
-            }
-
             if (ModelState.IsValid)
             {
-                catToUpdate.Name = cat.Name;
-                catToUpdate.ImageUrl = cat.ImageUrl;
-                catToUpdate.Description = cat.Description;
-
-                return RedirectToAction(nameof(Index));
+                if (cat.CatId == 0)
+                    context.Cat.Add(cat);
+                else
+                    context.Cat.Update(cat);
+                context.SaveChanges();
+                return RedirectToAction("Index", "Home");
             }
-            return View(cat);
+            else
+            {
+                ViewBag.Action = (cat.CatId == 0) ? "Add" : "Edit";
+                return View(cat);
+            }
         }
 
+
+        [HttpGet]
         public IActionResult Delete(int id)
         {
-            // Find the cat to delete
-            var cat = cats.Find(c => c.Id == id);
-            if (cat == null)
-            {
-                return NotFound();
-            }
-            return View(cat);
+            var movie = context.Cat.Find(id);
+            return View(movie);
         }
-
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public IActionResult DeleteConfirmed(int id)
+        [HttpPost]
+        public IActionResult Delete(Cat movie)
         {
-            var cat = cats.Find(c => c.Id == id);
-            if (cat != null)
-            {
-                cats.Remove(cat);
-            }
-            return RedirectToAction(nameof(Index));
+            context.Cat.Remove(movie);
+            context.SaveChanges();
+            return RedirectToAction("Index", "Home");
         }
 
-        public IActionResult Advice()
+        public IActionResult Favorites()
         {
-            return View("Advice");
+            // Redirect to a Favorites action or controller if exists
+            // For this example, assume it's a static page
+            return View();
         }
 
+        public IActionResult AboutUs()
+        {
+            // Redirect to a Favorites action or controller if exists
+            // For this example, assume it's a static page
+            return View();
+        }
     }
 }

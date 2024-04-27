@@ -1,22 +1,110 @@
-﻿@model CatAdvice;
+﻿@model Cat
 @{
     ViewBag.Title = "Cat Advice";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Cat Gallery</h2>
-<p>Welcome to our Cat Gallery! Here you can find photos of adorable cats shared by our loving community. From fluffy to sleek, playful to serene, discover the diverse world of cats and maybe even find your next feline friend.</p>
 
- <form asp-action="" method="post">
-            <div class="form-input">
-        <label asp-for="Breed">Cat Breeds</label>
-                <input asp-for="Breed" />
-        <label asp-for="CatName">Cat Name</label>
-        <input asp-for="CatName" />
 
+
+
+<main class="flex-columnav bg-secondary">
+
+
+    <div class="sections flex-row w-full justify-content-center gap-2">
+        <section id="Add-book-form-section" class="p-3">
+            <h3>Cat Advice Submits</h3>
+            <form method="post" id="book-submit-form" asp-action="Advice" class="d-flex flex-column gap-2">
+                <fieldset>
+                    <label for="">Cat Name: </label>
+                    <input asp-for="CatName" name="catName" type="text" placeholder="">
+                </fieldset>
+
+                <fieldset>
+                    <label for="">Cat Breed</label>
+                    <input asp-for="CatBreed" name="catBreed" type="text" placeholder="">
+                </fieldset>
+
+                <fieldset>
+                    <label for="">Food Brand</label>
+                    <input asp-for="CatFavoriteFood" name="CatFavoriteFood" type="text" placeholder="">
+                </fieldset>
+                <fieldset>
+                    <label for="">Toy Brand</label>
+                    <input asp-for="CatFavoriteToy" name="CatFavoriteToy" type="text" placeholder="">
+                </fieldset>
+                <fieldset>
+                    <label for="">Advice</label>
+                    <input asp-for="Advice" name="advice" type="text" placeholder="">
+                </fieldset>
+
+                <fieldset>
+                    <input class="text-light" type="submit" value="SUBMIT" />
+                </fieldset>
+
+
+            </form>
+        </section>
+
+        <section id="hero-section">
+
+            <div id="center">
+                <section id="search-form-section d-flex flex-column gap-4">
+
+                    <form asp-action="Advice" method="get" class="d-flex flex-column gap-4">
+
+                        <input type="search" class="w-full p-2" name="query" placeholder="Search cat advice..." id="search-box" />
+
+                        <div class="flex-row justify-content-center">
+                            <button type="submit" id="search-btn">
+                                Search
+                            </button>
+                            <button type="clear" id="clear-btn" name="clear">
+                                clear
+                            </button>
+
+                        </div>
+                    </form>
+
+                    <section id="book-details" class="mt-4">
+
+
+                        <table class="w-full table table-primary">
+                            <thead>
+                                <tr>
+                                    <td>Cat Name</td>
+                                    <td>Cat Breed</td>                                 
+                                    <td>Cat Foods</td>
+                                    <td>Cat Toys</td>                                    
+                                    <td>Advice</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (ViewBag.results != null)
+                                {
+                                    @foreach (Cat c in ViewBag.results)
+                                    {
+                                        <tr>
+                                            <td>@c.CatName</td>
+                                            <td>@c.CatBreed</td>
+                                            <td>@c.CatFavoriteFood</td>
+                                            <td>@c.CatFavoriteToy</td>                                          
+                                            <td>@c.Advice</td>
+                                            
+                                        </tr>
+                                    }
+
+                                }
+                            </tbody>
+                        </table>
+                    </section>
+
+                </section>
             </div>
 
-</form>
+        </section>
+    </div>
+</main>
 
 <style>
     .cat-gallery {
@@ -41,4 +129,222 @@
             border-bottom: 1px solid #ddd;
             margin-bottom: 5px;
         }
+
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    #Add-book-form-section {
+        display: flex;
+        flex-direction: column;
+        --bg: rgb(38, 35, 35);
+        background-color: rgb(19, 18, 18);
+        border: 2px solid rgb(17, 16, 16);
+        color: rgb(240, 247, 248);
+        opacity: 0.8;
+        border-radius: 20px;
+        margin-right: 0px;
+        justify-content: center;
+        padding: 3 10px;
+        font-size: 20px;
+        margin-top: 35px;
+    }
+
+
+
+    #book-submit-table, #signin-table {
+        border-spacing: 0 10px;
+        margin-top: 90px;
+    }
+
+
+    #hero-section {
+        width: 65%;
+        height: 0px;
+        background-color: var(--primary-color);
+        border: 30px solid var(--white);
+        color: var(--white);
+        opacity: 0.5;
+        border: none;
+    }
+
+    /* justify[content|item] start center end */
+    .justify-content-start {
+        justify-content: start;
+    }
+
+    .justify-content-center {
+        justify-content: center;
+    }
+
+    .justify-content-end {
+        justify-content: end;
+    }
+
+    /* align[content|item] start center end */
+    .align-items-start {
+        justify-content: start;
+    }
+
+    .align-items-center {
+        justify-content: center;
+    }
+
+    .align-items-end {
+        justify-content: end;
+    }
+
+    /* flex */
+    .flex-2 {
+        flex-grow: 2;
+    }
+
+    h1 {
+        display: flex;
+    }
+
+    .flex-grow-none {
+        flex-grow: none;
+    }
+
+    .flex-row, .flex-column {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .flex-column {
+        flex-direction: column;
+    }
+
+    .w-full {
+        width: 100%;
+    }
+
+    .h-full {
+        height: 100%;
+    }
+
+    fieldset {
+        border: none;
+        display: flex;
+        gap: 10px;
+    }
+
+    label {
+        flex: 1 1 40%;
+    }
+
+    input {
+        flex: 1 1 60%;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    h3 {
+        padding: 0px 15px;
+        text-align: center;
+    }
+
+    .nfc-cat-paws {
+        background: url('/images/5.jpg') 25px/205px;
+        height: 70px;
+        width: 100%;
+    }
+
+    button, input[type=submit] {
+        width: 300px;
+        margin: 15px;
+        font-size: 16px;
+        background: #0c0c0c;
+        border-radius: 18px;
+        border: 3px solid #f0ebeb;
+    }
+
+        button:hover, input[type=submit]:hover {
+            box-shadow: 0 0 10px rgb(236, 240, 242), 0 0 20px rgb(232, 238, 241), 0 0 20px rgb(226, 233, 238), 0 0 30px rgb(221, 230, 235);
+        }
+
 </style>
+
+
+
+<style>
+
+    body {
+        margin-top: 30px;
+        background-position: center;
+    }
+
+    #search-form-section {
+        margin-top: 130px;
+    }
+
+    #search-form {
+        margin: 0 auto;
+    }
+
+    #search-box {
+        height: 15px;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+
+
+
+    #clear-btn {
+        margin-left: 15px;
+    }
+
+    #clear-btn, #search-btn {
+        background-color: rgb(224, 229, 234);
+        width: 80px;
+        height: 30px;
+        border: none;
+        border-radius: 20px;
+        font-size: large;
+    }
+
+        #search-btn:hover, #clear-btn:hover {
+            background-color: rgb(241, 241, 13 );
+            border: 1px solid black;
+        }
+
+
+
+    #center {
+        margin-top: 100px;
+    }
+
+    #book-details {
+        background-color: rgb(228, 239, 235);
+    }
+
+
+    #bookList {
+        margin-top: 180px;
+        margin: 0 auto;
+        padding: 15px;
+    }
+
+        #bookList li {
+            display: block;
+            padding: 7px 10px;
+            font-size: 18px;
+        }
+
+
+
+
+    button:hover, input[type=submit]:hover {
+        box-shadow: 0 0 10px rgb(236, 240, 242), 0 0 20px rgb(232, 238, 241), 0 0 20px rgb(226, 233, 238), 0 0 30px rgb(221, 230, 235);
+    }
+
+</style>
+

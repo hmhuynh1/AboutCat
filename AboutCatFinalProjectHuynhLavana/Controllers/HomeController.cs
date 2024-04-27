@@ -32,9 +32,9 @@ namespace AboutCatFinalProjectHuynhLavana.Controllers
         }
         private static readonly Cat[] _featuredCats = new Cat[]
        {
-            new Cat { Id = 1, Name = "Fluffy", ImageUrl = "/images/cat1.jpg", Description = "The Majestic Floof" },
-            new Cat { Id = 2, Name = "Whiskers", ImageUrl = "/images/cat2.jpg", Description = "Playful Explorer" },
-            new Cat { Id = 3, Name = "Serenity", ImageUrl = "/images/cat3.jpg", Description = "The Zen Master" }
+            //new Cat { Id = 1, Name = "Fluffy", ImageUrl = "/images/cat1.jpg", Description = "The Majestic Floof" },
+            //new Cat { Id = 2, Name = "Whiskers", ImageUrl = "/images/cat2.jpg", Description = "Playful Explorer" },
+            //new Cat { Id = 3, Name = "Serenity", ImageUrl = "/images/cat3.jpg", Description = "The Zen Master" }
        };
 
         
@@ -53,6 +53,12 @@ namespace AboutCatFinalProjectHuynhLavana.Controllers
         }
 
         public IActionResult Favorites()
+        {
+            // Redirect to a Favorites action or controller if exists
+            // For this example, assume it's a static page
+            return View();
+        }
+        public IActionResult AboutUs()
         {
             // Redirect to a Favorites action or controller if exists
             // For this example, assume it's a static page
