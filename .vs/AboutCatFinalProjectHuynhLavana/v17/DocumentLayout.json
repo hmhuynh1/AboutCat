@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\Final_project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B50BBD1-8F39-4E1C-B219-CC18A32B9F41}|AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj|c:\\users\\need2\\pictures\\school\\c# ii\\final_project\\aboutcatfinalprojecthuynhlavana\\views\\cats\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B50BBD1-8F39-4E1C-B219-CC18A32B9F41}|AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj|solutionrelative:aboutcatfinalprojecthuynhlavana\\views\\cats\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B50BBD1-8F39-4E1C-B219-CC18A32B9F41}|AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj|c:\\users\\need2\\pictures\\school\\c# ii\\final_project\\aboutcatfinalprojecthuynhlavana\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B50BBD1-8F39-4E1C-B219-CC18A32B9F41}|AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj|solutionrelative:aboutcatfinalprojecthuynhlavana\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B50BBD1-8F39-4E1C-B219-CC18A32B9F41}|AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj|c:\\users\\need2\\pictures\\school\\c# ii\\final_project\\aboutcatfinalprojecthuynhlavana\\views\\cats\\gallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B50BBD1-8F39-4E1C-B219-CC18A32B9F41}|AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj|solutionrelative:aboutcatfinalprojecthuynhlavana\\views\\cats\\gallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Gallery.cshtml",
+              "DocumentMoniker": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\Final_project\\AboutCatFinalProjectHuynhLavana\\Views\\Cats\\Gallery.cshtml",
+              "RelativeDocumentMoniker": "AboutCatFinalProjectHuynhLavana\\Views\\Cats\\Gallery.cshtml",
+              "ToolTip": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\Final_project\\AboutCatFinalProjectHuynhLavana\\Views\\Cats\\Gallery.cshtml",
+              "RelativeToolTip": "AboutCatFinalProjectHuynhLavana\\Views\\Cats\\Gallery.cshtml",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAFMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T07:10:22.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AboutUs.cshtml",
+              "DocumentMoniker": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\Final_project\\AboutCatFinalProjectHuynhLavana\\Views\\Cats\\AboutUs.cshtml",
+              "RelativeDocumentMoniker": "AboutCatFinalProjectHuynhLavana\\Views\\Cats\\AboutUs.cshtml",
+              "ToolTip": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\Final_project\\AboutCatFinalProjectHuynhLavana\\Views\\Cats\\AboutUs.cshtml",
+              "RelativeToolTip": "AboutCatFinalProjectHuynhLavana\\Views\\Cats\\AboutUs.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAABEAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T06:56:15.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\Final_project\\AboutCatFinalProjectHuynhLavana\\Views\\Home\\Home.cshtml",
+              "RelativeDocumentMoniker": "AboutCatFinalProjectHuynhLavana\\Views\\Home\\Home.cshtml",
+              "ToolTip": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\Final_project\\AboutCatFinalProjectHuynhLavana\\Views\\Home\\Home.cshtml",
+              "RelativeToolTip": "AboutCatFinalProjectHuynhLavana\\Views\\Home\\Home.cshtml",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAAD0AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T05:38:35.551Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
