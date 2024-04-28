@@ -154,3 +154,5 @@ C:\Users\need2\Pictures\SCHOOL\C# II\FINAL-PROJECT\AboutCat\TestProject2\bin\Deb
 C:\Users\need2\Pictures\SCHOOL\C# II\FINAL-PROJECT\AboutCat\TestProject2\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\need2\Pictures\SCHOOL\C# II\FINAL-PROJECT\AboutCat\TestProject2\bin\Debug\net8.0\AboutCatFinalProjectHuynhLavana.dll
 C:\Users\need2\Pictures\SCHOOL\C# II\FINAL-PROJECT\AboutCat\TestProject2\bin\Debug\net8.0\AboutCatFinalProjectHuynhLavana.pdb
+C:\Users\need2\Pictures\SCHOOL\C# II\FINAL-PROJECT\AboutCat\TestProject2\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\need2\Pictures\SCHOOL\C# II\FINAL-PROJECT\AboutCat\TestProject2\bin\Debug\net8.0\Moq.dll
