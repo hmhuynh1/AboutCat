@@ -52,8 +52,18 @@ namespace AboutCatFinalProjectHuynhLavana.Models
         [Required, StringLength(100)]
         public string Advice { get; set; } = string.Empty;
 
+       public Cat(int catId, string catName, string catBreed, string catFavoriteFood, string catFavoriteToy, string advice)
+        {
+            CatId = catId;
+            CatName = catName;
+            CatBreed = catBreed;
+            CatFavoriteFood = catFavoriteFood;
+            CatFavoriteToy = catFavoriteToy;
+            Advice = advice;
+        }
+        public Cat() { 
 
-
+        }
     }
 }
 
