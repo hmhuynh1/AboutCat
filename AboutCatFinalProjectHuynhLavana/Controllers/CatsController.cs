@@ -1,14 +1,18 @@
 ﻿using AboutCatFinalProjectHuynhLavana.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+
 
 
 namespace CatsList.Controllers
 {
+    
     public class CatsController : Controller
     {
         private CatContext context { get; set; }
 
         public CatsController(CatContext ctx) => context = ctx;
+        //[Authorize]
 
         [HttpGet]
         public IActionResult Advice(String query = "")

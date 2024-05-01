@@ -26,7 +26,7 @@ namespace TestProject2
             var controller = new CatsController(context);
             var result = controller.Advice(new Cat
             {
-                CatId = 1,
+                CatId =0,
                 CatName = "Casablanca",
                 CatBreed = "T",
                 CatFavoriteFood = "c",
