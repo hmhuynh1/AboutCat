@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\FINAL-PROJECT\\AboutCat\\TestProject2\\TestProject2.csproj": {}
+    "C:\\Users\\realc\\Downloads\\5th time in a row\\TestProject2\\TestProject2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\FINAL-PROJECT\\AboutCat\\AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj": {
+    "C:\\Users\\realc\\Downloads\\5th time in a row\\AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\FINAL-PROJECT\\AboutCat\\AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj",
+        "projectUniqueName": "C:\\Users\\realc\\Downloads\\5th time in a row\\AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj",
         "projectName": "AboutCatFinalProjectHuynhLavana",
-        "projectPath": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\FINAL-PROJECT\\AboutCat\\AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj",
-        "packagesPath": "C:\\Users\\HongM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\FINAL-PROJECT\\AboutCat\\AboutCatFinalProjectHuynhLavana\\obj\\",
+        "projectPath": "C:\\Users\\realc\\Downloads\\5th time in a row\\AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj",
+        "packagesPath": "C:\\Users\\realc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\realc\\Downloads\\5th time in a row\\AboutCatFinalProjectHuynhLavana\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HongM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\realc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -87,21 +87,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\FINAL-PROJECT\\AboutCat\\TestProject2\\TestProject2.csproj": {
+    "C:\\Users\\realc\\Downloads\\5th time in a row\\TestProject2\\TestProject2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\FINAL-PROJECT\\AboutCat\\TestProject2\\TestProject2.csproj",
+        "projectUniqueName": "C:\\Users\\realc\\Downloads\\5th time in a row\\TestProject2\\TestProject2.csproj",
         "projectName": "TestProject2",
-        "projectPath": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\FINAL-PROJECT\\AboutCat\\TestProject2\\TestProject2.csproj",
-        "packagesPath": "C:\\Users\\HongM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\FINAL-PROJECT\\AboutCat\\TestProject2\\obj\\",
+        "projectPath": "C:\\Users\\realc\\Downloads\\5th time in a row\\TestProject2\\TestProject2.csproj",
+        "packagesPath": "C:\\Users\\realc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\realc\\Downloads\\5th time in a row\\TestProject2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HongM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\realc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -115,8 +115,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\FINAL-PROJECT\\AboutCat\\AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj": {
-                "projectPath": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\FINAL-PROJECT\\AboutCat\\AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj"
+              "C:\\Users\\realc\\Downloads\\5th time in a row\\AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj": {
+                "projectPath": "C:\\Users\\realc\\Downloads\\5th time in a row\\AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj"
               }
             }
           }
@@ -173,7 +173,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
