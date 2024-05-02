@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\FINAL-PROJECT\\AboutCat\\",
+  "WorkspaceRootPath": "C:\\Users\\realc\\Downloads\\5th time in a row\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B50BBD1-8F39-4E1C-B219-CC18A32B9F41}|AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj|c:\\users\\need2\\pictures\\school\\c# ii\\final-project\\aboutcat\\aboutcatfinalprojecthuynhlavana\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8B50BBD1-8F39-4E1C-B219-CC18A32B9F41}|AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj|solutionrelative:aboutcatfinalprojecthuynhlavana\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B50BBD1-8F39-4E1C-B219-CC18A32B9F41}|AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj|c:\\users\\need2\\pictures\\school\\c# ii\\final-project\\aboutcat\\aboutcatfinalprojecthuynhlavana\\views\\cats\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8B50BBD1-8F39-4E1C-B219-CC18A32B9F41}|AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj|c:\\users\\realc\\downloads\\5th time in a row\\aboutcatfinalprojecthuynhlavana\\views\\cats\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8B50BBD1-8F39-4E1C-B219-CC18A32B9F41}|AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj|solutionrelative:aboutcatfinalprojecthuynhlavana\\views\\cats\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B50BBD1-8F39-4E1C-B219-CC18A32B9F41}|AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj|c:\\users\\need2\\pictures\\school\\c# ii\\final-project\\aboutcat\\aboutcatfinalprojecthuynhlavana\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8B50BBD1-8F39-4E1C-B219-CC18A32B9F41}|AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj|c:\\users\\realc\\downloads\\5th time in a row\\aboutcatfinalprojecthuynhlavana\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8B50BBD1-8F39-4E1C-B219-CC18A32B9F41}|AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj|solutionrelative:aboutcatfinalprojecthuynhlavana\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B50BBD1-8F39-4E1C-B219-CC18A32B9F41}|AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj|c:\\users\\realc\\downloads\\5th time in a row\\aboutcatfinalprojecthuynhlavana\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8B50BBD1-8F39-4E1C-B219-CC18A32B9F41}|AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj|solutionrelative:aboutcatfinalprojecthuynhlavana\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -26,15 +26,19 @@
           "Children": [
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Home.cshtml",
-              "DocumentMoniker": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\FINAL-PROJECT\\AboutCat\\AboutCatFinalProjectHuynhLavana\\Views\\Home\\Home.cshtml",
+              "DocumentMoniker": "C:\\Users\\realc\\Downloads\\5th time in a row\\AboutCatFinalProjectHuynhLavana\\Views\\Home\\Home.cshtml",
               "RelativeDocumentMoniker": "AboutCatFinalProjectHuynhLavana\\Views\\Home\\Home.cshtml",
-              "ToolTip": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\FINAL-PROJECT\\AboutCat\\AboutCatFinalProjectHuynhLavana\\Views\\Home\\Home.cshtml",
+              "ToolTip": "C:\\Users\\realc\\Downloads\\5th time in a row\\AboutCatFinalProjectHuynhLavana\\Views\\Home\\Home.cshtml",
               "RelativeToolTip": "AboutCatFinalProjectHuynhLavana\\Views\\Home\\Home.cshtml",
               "ViewState": "AQIAADMAAAAAAAAAAAAcwDkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -42,25 +46,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AboutUs.cshtml",
-              "DocumentMoniker": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\FINAL-PROJECT\\AboutCat\\AboutCatFinalProjectHuynhLavana\\Views\\Cats\\AboutUs.cshtml",
+              "DocumentMoniker": "C:\\Users\\realc\\Downloads\\5th time in a row\\AboutCatFinalProjectHuynhLavana\\Views\\Cats\\AboutUs.cshtml",
               "RelativeDocumentMoniker": "AboutCatFinalProjectHuynhLavana\\Views\\Cats\\AboutUs.cshtml",
-              "ToolTip": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\FINAL-PROJECT\\AboutCat\\AboutCatFinalProjectHuynhLavana\\Views\\Cats\\AboutUs.cshtml",
-              "RelativeToolTip": "AboutCatFinalProjectHuynhLavana\\Views\\Cats\\AboutUs.cshtml",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAABYAAACEAAAA",
+              "ToolTip": "C:\\Users\\realc\\Downloads\\5th time in a row\\AboutCatFinalProjectHuynhLavana\\Views\\Cats\\AboutUs.cshtml*",
+              "RelativeToolTip": "AboutCatFinalProjectHuynhLavana\\Views\\Cats\\AboutUs.cshtml*",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-01T08:53:37.865Z"
+              "WhenOpened": "2024-05-01T08:53:37.865Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\FINAL-PROJECT\\AboutCat\\AboutCatFinalProjectHuynhLavana\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\realc\\Downloads\\5th time in a row\\AboutCatFinalProjectHuynhLavana\\appsettings.json",
               "RelativeDocumentMoniker": "AboutCatFinalProjectHuynhLavana\\appsettings.json",
-              "ToolTip": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\FINAL-PROJECT\\AboutCat\\AboutCatFinalProjectHuynhLavana\\appsettings.json",
+              "ToolTip": "C:\\Users\\realc\\Downloads\\5th time in a row\\AboutCatFinalProjectHuynhLavana\\appsettings.json",
               "RelativeToolTip": "AboutCatFinalProjectHuynhLavana\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-05-01T08:44:21.371Z",
               "EditorCaption": ""
@@ -73,11 +78,15 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }
