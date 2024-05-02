@@ -21,34 +21,36 @@
             text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
         }
 
-        .text-and-image {
+        .flex-container {
             display: flex;
-            align-items: flex-start; /* Aligns items to the start of the cross axis */
+            align-items: flex-start;
+            margin: 20px;
+        }
+
+        .text-on-left {
+            flex-direction: row; /* Text on left, Image on right */
+        }
+
+        .text-on-right {
+            flex-direction: row-reverse; /* Image on left, Text on right */
         }
 
         .text-content {
-            flex: 1; /* Takes up remaining space */
+            flex: 1;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+            color: white;
+            font-size: 20px;
+            font-family: Verdana;
         }
-
-            .text-content p {
-                /* text-shadow: 1px 1px 2px #ffffff; /* Subtle shadow for paragraph text */ */
-            }
 
         .image-content img {
-            width: 250px; /* Adjust width as needed to fit the text */
+            width: 210px;
             height: auto; /* Maintain aspect ratio */
-            margin-left: 30px; /* Space between text and image */
-            margin-top:10px;
-            border: 2px solid rgba(0, 00, 00, 0.5); /* Add a solid black border */
-            border-radius: 8px; /* Add border radius for rounded corners */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+            margin: 20px;
+            border: 4px solid rgba(255, 255, 255, 0.9);
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 1);
         }
-
-        .text-white {
-            color:white;
-            text-align: left;
-        }
-      
     </style>
 </head>
 <body>
