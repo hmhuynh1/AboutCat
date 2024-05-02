@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\FINAL-PROJECT\\AboutCat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B50BBD1-8F39-4E1C-B219-CC18A32B9F41}|AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj|c:\\users\\need2\\pictures\\school\\c# ii\\final-project\\aboutcat\\aboutcatfinalprojecthuynhlavana\\controllers\\catscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B50BBD1-8F39-4E1C-B219-CC18A32B9F41}|AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj|solutionrelative:aboutcatfinalprojecthuynhlavana\\controllers\\catscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B50BBD1-8F39-4E1C-B219-CC18A32B9F41}|AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj|c:\\users\\need2\\pictures\\school\\c# ii\\final-project\\aboutcat\\aboutcatfinalprojecthuynhlavana\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8B50BBD1-8F39-4E1C-B219-CC18A32B9F41}|AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj|solutionrelative:aboutcatfinalprojecthuynhlavana\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B50BBD1-8F39-4E1C-B219-CC18A32B9F41}|AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj|c:\\users\\need2\\pictures\\school\\c# ii\\final-project\\aboutcat\\aboutcatfinalprojecthuynhlavana\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B50BBD1-8F39-4E1C-B219-CC18A32B9F41}|AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj|solutionrelative:aboutcatfinalprojecthuynhlavana\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B50BBD1-8F39-4E1C-B219-CC18A32B9F41}|AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj|c:\\users\\need2\\pictures\\school\\c# ii\\final-project\\aboutcat\\aboutcatfinalprojecthuynhlavana\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8B50BBD1-8F39-4E1C-B219-CC18A32B9F41}|AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj|solutionrelative:aboutcatfinalprojecthuynhlavana\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B50BBD1-8F39-4E1C-B219-CC18A32B9F41}|AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj|c:\\users\\need2\\pictures\\school\\c# ii\\final-project\\aboutcat\\aboutcatfinalprojecthuynhlavana\\views\\cats\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8B50BBD1-8F39-4E1C-B219-CC18A32B9F41}|AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj|solutionrelative:aboutcatfinalprojecthuynhlavana\\views\\cats\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B50BBD1-8F39-4E1C-B219-CC18A32B9F41}|AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj|c:\\users\\need2\\pictures\\school\\c# ii\\final-project\\aboutcat\\aboutcatfinalprojecthuynhlavana\\views\\cats\\gallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8B50BBD1-8F39-4E1C-B219-CC18A32B9F41}|AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj|solutionrelative:aboutcatfinalprojecthuynhlavana\\views\\cats\\gallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8B50BBD1-8F39-4E1C-B219-CC18A32B9F41}|AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj|c:\\users\\need2\\pictures\\school\\c# ii\\final-project\\aboutcat\\aboutcatfinalprojecthuynhlavana\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B50BBD1-8F39-4E1C-B219-CC18A32B9F41}|AboutCatFinalProjectHuynhLavana\\AboutCatFinalProjectHuynhLavana.csproj|solutionrelative:aboutcatfinalprojecthuynhlavana\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,68 +22,48 @@
       "DocumentGroups": [
         {
           "DockedHeight": 165,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\FINAL-PROJECT\\AboutCat\\AboutCatFinalProjectHuynhLavana\\Models\\User.cs",
-              "RelativeDocumentMoniker": "AboutCatFinalProjectHuynhLavana\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\FINAL-PROJECT\\AboutCat\\AboutCatFinalProjectHuynhLavana\\Models\\User.cs",
-              "RelativeToolTip": "AboutCatFinalProjectHuynhLavana\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T23:53:40.562Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CatsController.cs",
-              "DocumentMoniker": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\FINAL-PROJECT\\AboutCat\\AboutCatFinalProjectHuynhLavana\\Controllers\\CatsController.cs",
-              "RelativeDocumentMoniker": "AboutCatFinalProjectHuynhLavana\\Controllers\\CatsController.cs",
-              "ToolTip": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\FINAL-PROJECT\\AboutCat\\AboutCatFinalProjectHuynhLavana\\Controllers\\CatsController.cs",
-              "RelativeToolTip": "AboutCatFinalProjectHuynhLavana\\Controllers\\CatsController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T23:45:40.983Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Home.cshtml",
               "DocumentMoniker": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\FINAL-PROJECT\\AboutCat\\AboutCatFinalProjectHuynhLavana\\Views\\Home\\Home.cshtml",
               "RelativeDocumentMoniker": "AboutCatFinalProjectHuynhLavana\\Views\\Home\\Home.cshtml",
               "ToolTip": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\FINAL-PROJECT\\AboutCat\\AboutCatFinalProjectHuynhLavana\\Views\\Home\\Home.cshtml",
               "RelativeToolTip": "AboutCatFinalProjectHuynhLavana\\Views\\Home\\Home.cshtml",
-              "ViewState": "AQIAADUAAAAAAAAAAAAAAEoAAAAOAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAcwDkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-30T03:56:09.28Z"
+              "WhenOpened": "2024-05-01T08:55:19.532Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Gallery.cshtml",
-              "DocumentMoniker": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\FINAL-PROJECT\\AboutCat\\AboutCatFinalProjectHuynhLavana\\Views\\Cats\\Gallery.cshtml",
-              "RelativeDocumentMoniker": "AboutCatFinalProjectHuynhLavana\\Views\\Cats\\Gallery.cshtml",
-              "ToolTip": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\FINAL-PROJECT\\AboutCat\\AboutCatFinalProjectHuynhLavana\\Views\\Cats\\Gallery.cshtml",
-              "RelativeToolTip": "AboutCatFinalProjectHuynhLavana\\Views\\Cats\\Gallery.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-30T03:25:14.047Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "AboutUs.cshtml",
               "DocumentMoniker": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\FINAL-PROJECT\\AboutCat\\AboutCatFinalProjectHuynhLavana\\Views\\Cats\\AboutUs.cshtml",
               "RelativeDocumentMoniker": "AboutCatFinalProjectHuynhLavana\\Views\\Cats\\AboutUs.cshtml",
               "ToolTip": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\FINAL-PROJECT\\AboutCat\\AboutCatFinalProjectHuynhLavana\\Views\\Cats\\AboutUs.cshtml",
               "RelativeToolTip": "AboutCatFinalProjectHuynhLavana\\Views\\Cats\\AboutUs.cshtml",
-              "ViewState": "AQIAACAAAAAAAAAAAAAuwDQAAAAAAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABYAAACEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-30T02:59:51.897Z"
+              "WhenOpened": "2024-05-01T08:53:37.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\FINAL-PROJECT\\AboutCat\\AboutCatFinalProjectHuynhLavana\\appsettings.json",
+              "RelativeDocumentMoniker": "AboutCatFinalProjectHuynhLavana\\appsettings.json",
+              "ToolTip": "C:\\Users\\need2\\Pictures\\SCHOOL\\C# II\\FINAL-PROJECT\\AboutCat\\AboutCatFinalProjectHuynhLavana\\appsettings.json",
+              "RelativeToolTip": "AboutCatFinalProjectHuynhLavana\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-01T08:44:21.371Z",
+              "EditorCaption": ""
             }
           ]
         },
@@ -101,23 +73,11 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             }
           ]
         }
